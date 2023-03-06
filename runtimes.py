@@ -36,8 +36,6 @@ if __name__ == '__main__':
             # (it turns out to be common to run sorting algorithms on lists that are already sorted or almost sorted)
             # the timsort algorithm has extra optimizations for this case,
             # and whenever the input list is sorted, timsort will run in time Theta(n) instead of Theta(n log n)
-            #
-            # your specific task is to make xs be a list of all numbers between 0 and 2**x
             xs = list(range(2**x))
 
             # HINT:
